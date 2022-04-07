@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Weather Data</title>
+</head>
+
+<style>
+body { 
+    background-color: #99A799;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+div {
+    color: white;
+    padding: 20px;
+    border: solid 1px #F2DDC1;
+    border-radius: 20px;
+    background-color: #43909e;
+    position: absolute;
+    left: 550px;
+    top:250px;
+}
+
+.btn {
+   background-color: #F4EEA9;
+   border: solid 1px grey;
+   border-radius: 20px; 
+   color: black;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #7267CB;
+}
+
+
+</style>
+
+<body>
+    <div>
+    <form action="/" method="post">
+    <label for="cityInput">City Name: </label>
+    <input id="cityInput" type="text" name="cityName">
+    <button class="btn" type="submit" name="submit">Go</button>
+    </div>
+</form>
+</body>
+</html>

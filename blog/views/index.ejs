@@ -1,0 +1,12 @@
+<%- include("partials/header") -%>
+
+
+<% nBlog.forEach ((element) =>{ %>
+<h1> <%= element.head %> </h1>
+<p> <%=  element.content %><a href = "/<%= element._id %>">See more...</a></p>
+
+<% }); %>
+
+
+
+<%- include("partials/footer") -%>

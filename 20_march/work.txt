@@ -1,0 +1,20 @@
+admin-mitaksh
+test123
+
+mongo "mongodb+srv://cluster0.3cha6.mongodb.net/myFirstDatabase" --username admin-mitaksh
+
+main emial
+mitaksh24@gmail.com 
+
+heroku pass
+webDEVELOPER123*
+
+https://agile-dusk-42087.herokuapp.com/ | 
+https://git.heroku.com/agile-dusk-42087.git
+
+
+Creating app... done, ? rocky-atoll-27389
+https://rocky-atoll-27389.herokuapp.com/ | https://git.heroku.com/rocky-atoll-27389.git
+
+
+$ https://rocky-atoll-27389.herokuapp.com/ | https://git.heroku.com/rocky-atoll-27389.git

@@ -1,0 +1,17 @@
+<%- include("partials/header") %>
+
+<div class="body">
+
+
+
+
+<% results.forEach(element =>{ %>
+<div class="homeCon"><h2 id="head"><%=element.title%></h2></div>
+<div class="homeCont" ><img src = "images/<%=element.image%>"> </div>
+<div class="homeCon"><p><%=element.body%></p></div>
+<% }) %>
+
+
+</div>
+<%- include("partials/footer") %>
+
